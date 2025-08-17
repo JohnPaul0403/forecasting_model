@@ -28,17 +28,10 @@ forecasting_model/
 ├── data/
 │   ├── raw/                # Unprocessed market data (SPY, VIX)
 │   ├── processed/          # Cleaned and feature-engineered datasets
-├── eda/
+├── notebooks/
 │   └── eda_analysis.ipynb  # Exploratory data analysis, volatility visualization
-├── garch_model/
 │   └── garch_forecast.ipynb # GARCH model training and evaluation
-├── lstm_model/
-│   └── lstm_forecast.ipynb # LSTM forecasting pipeline
-├── tft_model/
-│   └── tft_forecast.ipynb  # TFT forecasting pipeline
-├── strategy/
-│   ├── strategy_backtest.py # Vega arbitrage strategy logic
-│   └── quantconnect_config/ # Configuration to test in QuantConnect
+├── models/
 ├── outputs/
 │   ├── predictions/        # Forecast CSVs from each model
 │   └── figures/            # Plots and evaluation visuals
