@@ -49,3 +49,15 @@ forecasting_model/
 - Benchmark strategy using QuantConnect framework 🔄
 
 Stay tuned as we build out and validate a robust volatility forecasting framework.
+
+---
+
+## 📊 Model Summary Table
+
+| Model      | Type         | Strengths                                        | Weaknesses                              |
+|------------|--------------|--------------------------------------------------|------------------------------------------|
+| GARCH(1,1) | Statistical  | Simple, interpretable, captures volatility clustering | Linear assumptions, can't model asymmetry |
+| LSTM       | Deep Learning | Good at sequence modeling, captures non-linearities | Requires more data, prone to overfitting |
+| TFT        | Deep Learning | Interpretable attention, handles static & time-varying covariates | Complex architecture, slower to train   |
+
+This table provides a quick reference comparing the forecasting models explored in this research.
