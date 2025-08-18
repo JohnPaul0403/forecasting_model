@@ -31,7 +31,10 @@ forecasting_model/
 ├── notebooks/
 │   └── eda_analysis.ipynb  # Exploratory data analysis, volatility visualization
 │   └── garch_forecast.ipynb # GARCH model training and evaluation
-├── models/
+├── src/
+│   ├── models/       
+│   ├── datasets/
+│   └── training/        
 ├── outputs/
 │   ├── predictions/        # Forecast CSVs from each model
 │   └── figures/            # Plots and evaluation visuals
